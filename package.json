@@ -1,0 +1,29 @@
+{
+  "name": "pet_magedanz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "test": "jest ../test/integration/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexandremagedanz/pet_magedanz.git"
+  },
+  "author": "Alexandre Orlando Magedanz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexandremagedanz/pet_magedanz/issues"
+  },
+  "homepage": "https://github.com/alexandremagedanz/pet_magedanz#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mysql2": "^3.16.0",
+    "sequelize": "^6.37.7"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0"
+  }
+}
